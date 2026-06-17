@@ -1,0 +1,77 @@
+{
+  "seed": 42,
+  "num_sessions": 2200,
+  "config_name": "agentic_loop",
+  "generation_params": {
+    "new_tokens_per_turn": {
+      "mu": 5.991464547107982,
+      "sigma": 1.6258879666092123,
+      "mean": 1500.0,
+      "median": 400.0,
+      "min": null,
+      "max": 10000.0,
+      "bias": 1.1
+    },
+    "generation_length": {
+      "mu": 4.382026634673881,
+      "sigma": 1.6651092223153954,
+      "mean": 320.0,
+      "median": 80.0,
+      "min": null,
+      "max": 3000.0
+    },
+    "inter_turn_delay": {
+      "agentic_fraction": 1.0,
+      "agentic_delay": {
+        "mu": 7.313220387090301,
+        "sigma": 0.0,
+        "mean": 1500.0,
+        "median": 1500.0,
+        "min": 1000.0,
+        "max": 2000.0
+      },
+      "human_delay": {
+        "mu": 7.313220387090301,
+        "sigma": 0.0,
+        "mean": 1500.0,
+        "median": 1500.0,
+        "min": null,
+        "max": 2000.0
+      },
+      "max": 2000.0
+    },
+    "reset": null,
+    "turns": {
+      "mean": 20,
+      "median": 20,
+      "min": 15,
+      "max": 30,
+      "allow_truncation": true,
+      "max_session_attempts": null
+    },
+    "max_prompt_tokens": 200000,
+    "block_size": 64,
+    "cache": {
+      "layer1_tokens": 12000,
+      "layer1_5_tokens": 8000,
+      "layer2": {
+        "mu": 8.294049640102028,
+        "sigma": 0.9005166385005492,
+        "mean": 6000.0,
+        "median": 4000.0,
+        "min": null,
+        "max": 20000.0
+      },
+      "layer1_5_groups": {
+        "num_groups": 20,
+        "zipf_alpha": 1.0
+      }
+    },
+    "restart_initial_probability": 0.0,
+    "restart_turn_range": [
+      5,
+      15
+    ],
+    "_comment": "Agentic-code-loop, tuned for ~60s wall-clock per session at 200 tok/s TPOT / 200ms TTFT. Pure agentic (no human pauses). Explicit 20-turn sessions: 20 TTFTs (4s) + 19 tool-call gaps at 1.5s (28.5s) + 20*250/200 decode (25s) = ~58s."
+  }
+}

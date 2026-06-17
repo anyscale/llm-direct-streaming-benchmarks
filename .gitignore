@@ -1,0 +1,14 @@
+.venv*/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+logs/
+figures/
+artifacts/reruns/
+datasets/*/_slices/
+datasets/*/*.html
+datasets/*/cache_explorer.html
+datasets/*/simulation.html
+datasets/synthetic_8x/*.jsonl
+datasets/synthetic_8x/*.manifest.json

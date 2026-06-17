@@ -1,0 +1,684 @@
+{
+  "schema_version": "1.1",
+  "aiperf_version": "0.8.0",
+  "benchmark_id": "29d988a7-eddb-4b3f-84da-c16936a5be3d",
+  "request_throughput": {
+    "unit": "requests/sec",
+    "avg": 38.83243255067009
+  },
+  "request_latency": {
+    "unit": "ms",
+    "avg": 4751.224804349199,
+    "p1": 777.37530652,
+    "p5": 1061.9936326499999,
+    "p10": 1227.1412930999998,
+    "p25": 1584.42402,
+    "p50": 2367.558638,
+    "p75": 4806.34192225,
+    "p90": 10737.09149720001,
+    "p95": 17416.516109000015,
+    "p99": 35318.57194015994,
+    "min": 347.054736,
+    "max": 51686.31785,
+    "std": 6427.710385630369,
+    "count": 40948,
+    "sum": 194553153.28849098
+  },
+  "request_count": {
+    "unit": "requests",
+    "avg": 40948.0
+  },
+  "time_to_first_token": {
+    "unit": "ms",
+    "avg": 1103.336041709363,
+    "p1": 374.05030835,
+    "p5": 532.0062512,
+    "p10": 626.6410302,
+    "p25": 806.0841399999999,
+    "p50": 1046.5151815,
+    "p75": 1340.52276975,
+    "p90": 1652.3948090000006,
+    "p95": 1859.4111931,
+    "p99": 2314.023091129999,
+    "min": 159.656038,
+    "max": 6350.566448,
+    "std": 413.8625346045043,
+    "count": 40948,
+    "sum": 45179404.235915
+  },
+  "time_to_second_token": {
+    "unit": "ms",
+    "avg": 34.91786077241868,
+    "p1": 1.1761979,
+    "p5": 2.46426935,
+    "p10": 3.2412062999999995,
+    "p25": 5.66806775,
+    "p50": 14.0179865,
+    "p75": 50.8712685,
+    "p90": 92.3066762,
+    "p95": 121.72415030000002,
+    "p99": 192.02383052999966,
+    "min": 0.0,
+    "max": 418.25336799999997,
+    "std": 42.5152660033065,
+    "count": 40948,
+    "sum": 1429816.5629089999
+  },
+  "inter_token_latency": {
+    "unit": "ms",
+    "avg": 14.822629678200691,
+    "p1": 5.57951899,
+    "p5": 8.78991599904762,
+    "p10": 10.48966647349138,
+    "p25": 13.177057463802084,
+    "p50": 15.509801887242562,
+    "p75": 16.653197968781512,
+    "p90": 17.790537353503506,
+    "p95": 19.06994627,
+    "p99": 22.846315742666658,
+    "min": 0.21577139999999997,
+    "max": 36.84628314285714,
+    "std": 3.2345158441222037,
+    "count": 40948,
+    "sum": 606957.0400629599
+  },
+  "output_token_throughput": {
+    "unit": "tokens/sec",
+    "avg": 9010.96886385156
+  },
+  "output_token_throughput_per_user": {
+    "unit": "tokens/sec/user",
+    "avg": 74.21502254250433,
+    "p1": 43.77073464388529,
+    "p5": 52.43853264470211,
+    "p10": 56.209656869255284,
+    "p25": 60.04852653221209,
+    "p50": 64.47535611982974,
+    "p75": 75.88947705261377,
+    "p90": 95.3319157032862,
+    "p95": 113.76673000642877,
+    "p99": 179.22692089628487,
+    "min": 27.13977950293897,
+    "max": 4634.53451198815,
+    "std": 69.01100667838962,
+    "count": 40948,
+    "sum": 3038956.743070471
+  },
+  "output_sequence_length": {
+    "unit": "tokens",
+    "avg": 232.0474992673635,
+    "p1": 30.0,
+    "p5": 31.0,
+    "p10": 31.0,
+    "p25": 31.0,
+    "p50": 78.0,
+    "p75": 234.0,
+    "p90": 598.0,
+    "p95": 1019.6500000000015,
+    "p99": 2138.529999999999,
+    "min": 12.0,
+    "max": 2999.0,
+    "std": 395.510551356836,
+    "count": 40948,
+    "sum": 9501881.0
+  },
+  "input_sequence_length": {
+    "unit": "tokens",
+    "avg": 37429.7556901436,
+    "p1": 21630.47,
+    "p5": 23533.35,
+    "p10": 25226.0,
+    "p25": 29633.75,
+    "p50": 36417.0,
+    "p75": 44007.75,
+    "p90": 50830.3,
+    "p95": 55264.65,
+    "p99": 63057.06,
+    "min": 20500.0,
+    "max": 81210.0,
+    "std": 9819.522616556453,
+    "count": 40948,
+    "sum": 1532673636.0
+  },
+  "output_token_count": {
+    "unit": "tokens",
+    "avg": 232.0474992673635,
+    "p1": 30.0,
+    "p5": 31.0,
+    "p10": 31.0,
+    "p25": 31.0,
+    "p50": 78.0,
+    "p75": 234.0,
+    "p90": 598.0,
+    "p95": 1019.6500000000015,
+    "p99": 2138.529999999999,
+    "min": 12.0,
+    "max": 2999.0,
+    "std": 395.510551356836,
+    "count": 40948,
+    "sum": 9501881.0
+  },
+  "inter_chunk_latency": {
+    "unit": "ms",
+    "avg": 23.871318500882385,
+    "p1": 1.8767768844708104,
+    "p5": 2.8416976961133797,
+    "p10": 4.041802130738444,
+    "p25": 7.73055515203784,
+    "p50": 11.466836425413439,
+    "p75": 31.31422476989977,
+    "p90": 59.483293341738694,
+    "p95": 81.34456168144496,
+    "p99": 136.1208755185377,
+    "min": 0.0,
+    "max": 663.586201,
+    "std": 28.564243180082446,
+    "count": 6257457,
+    "sum": 149373749.052576
+  },
+  "total_output_tokens": {
+    "unit": "tokens",
+    "avg": 9501881.0
+  },
+  "benchmark_duration": {
+    "unit": "sec",
+    "avg": 1054.479395453
+  },
+  "total_isl": {
+    "unit": "tokens",
+    "avg": 1532673636.0
+  },
+  "total_osl": {
+    "unit": "tokens",
+    "avg": 9501881.0
+  },
+  "error_request_count": {
+    "unit": "requests",
+    "avg": 12.0
+  },
+  "error_isl": {
+    "unit": "tokens",
+    "avg": 59064.083333333336,
+    "p1": 33269.91,
+    "p5": 33305.55,
+    "p10": 33738.2,
+    "p25": 40220.0,
+    "p50": 49004.5,
+    "p75": 83648.0,
+    "p90": 84145.7,
+    "p95": 84222.2,
+    "p99": 84255.64,
+    "min": 33261.0,
+    "max": 84264.0,
+    "std": 21521.2042664064,
+    "count": 12,
+    "sum": 708769.0
+  },
+  "total_error_isl": {
+    "unit": "tokens",
+    "avg": 708769.0
+  },
+  "telemetry_data": {
+    "summary": {
+      "endpoints_configured": [],
+      "endpoints_successful": [],
+      "start_time": "2026-06-16T12:02:19.929893",
+      "end_time": "2026-06-16T12:19:56.553172"
+    },
+    "endpoints": {},
+    "error_summary": []
+  },
+  "input_config": {
+    "endpoint": {
+      "model_names": [
+        "microsoft/Phi-tiny-MoE-instruct"
+      ],
+      "type": "chat",
+      "streaming": true,
+      "urls": [
+        "http://127.0.0.1:8000"
+      ]
+    },
+    "input": {
+      "extra": [
+        [
+          "ignore_eos",
+          true
+        ]
+      ],
+      "file": "datasets/agentic_loop_2200s_seed42/_slices/c256_n2048.jsonl",
+      "custom_dataset_type": "mooncake_trace",
+      "prompt": {
+        "input_tokens": {
+          "block_size": 64
+        }
+      }
+    },
+    "output": {
+      "artifact_directory": "artifacts/reruns/agentic_pd4p4d/vllm/fullsweep/c256",
+      "slice_duration": 60.0
+    },
+    "tokenizer": {
+      "name": "microsoft/Phi-tiny-MoE-instruct",
+      "resolved_names": {
+        "microsoft/Phi-tiny-MoE-instruct": "microsoft/Phi-tiny-MoE-instruct"
+      }
+    },
+    "loadgen": {
+      "concurrency": 256,
+      "request_rate": 500.0,
+      "arrival_pattern": "constant",
+      "request_count": 40960,
+      "warmup_request_count": 512,
+      "concurrency_ramp_duration": 60.0
+    },
+    "cli_command": "aiperf profile --model 'microsoft/Phi-tiny-MoE-instruct' --tokenizer 'microsoft/Phi-tiny-MoE-instruct' --url 'http://127.0.0.1:8000' --endpoint-type 'chat' --streaming --input-file 'datasets/agentic_loop_2200s_seed42/_slices/c256_n2048.jsonl' --custom-dataset-type 'mooncake_trace' --isl-block-size 64 --extra-inputs 'ignore_eos:true' --concurrency 256 --concurrency-ramp-duration 60 --request-rate 500 --arrival-pattern 'constant' --warmup-request-count 512 --workers-max 1024 --ui 'simple' --artifact-dir 'artifacts/reruns/agentic_pd4p4d/vllm/fullsweep/c256' --server-metrics-formats 'json' 'csv' 'jsonl' --slice-duration 60",
+    "benchmark_id": "29d988a7-eddb-4b3f-84da-c16936a5be3d",
+    "server_metrics_formats": [
+      "json",
+      "csv",
+      "jsonl"
+    ]
+  },
+  "was_cancelled": false,
+  "error_summary": [
+    {
+      "error_details": {
+        "code": 500,
+        "type": "Internal Server Error",
+        "message": "Request processing failed: Network error: Prefill request failed to http://127.0.0.1:9100/v1/chat/completions: error sending request for url (http://127.0.0.1:9100/v1/chat/completions) caused by: client error (SendRequest) caused by: connection error caused by: Connection reset by peer (os error 104)"
+      },
+      "count": 3
+    },
+    {
+      "error_details": {
+        "code": 500,
+        "type": "Internal Server Error",
+        "message": "Request processing failed: Network error: Decode request failed to http://127.0.0.1:9203/v1/chat/completions: error sending request for url (http://127.0.0.1:9203/v1/chat/completions) caused by: client error (SendRequest) caused by: connection error caused by: Connection reset by peer (os error 104)"
+      },
+      "count": 1
+    },
+    {
+      "error_details": {
+        "code": 500,
+        "type": "Internal Server Error",
+        "message": "Request processing failed: Network error: Prefill request failed to http://127.0.0.1:9103/v1/chat/completions: error sending request for url (http://127.0.0.1:9103/v1/chat/completions) caused by: client error (SendRequest) caused by: connection error caused by: Connection reset by peer (os error 104)"
+      },
+      "count": 1
+    },
+    {
+      "error_details": {
+        "code": 500,
+        "type": "Internal Server Error",
+        "message": "Request processing failed: Network error: Decode request failed to http://127.0.0.1:9200/v1/chat/completions: error sending request for url (http://127.0.0.1:9200/v1/chat/completions) caused by: client error (SendRequest) caused by: connection error caused by: Connection reset by peer (os error 104)"
+      },
+      "count": 1
+    },
+    {
+      "error_details": {
+        "code": 400,
+        "type": "Bad Request",
+        "message": "{\"error\":{\"message\":\"This model's maximum context length is 81920 tokens. However, you requested 30 output tokens and your prompt contains at least 81891 input tokens, for a total of at least 81921 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=81891)\",\"type\":\"BadRequestError\",\"param\":\"input_tokens\",\"code\":400}}"
+      },
+      "count": 3
+    },
+    {
+      "error_details": {
+        "code": 400,
+        "type": "Bad Request",
+        "message": "{\"error\":{\"message\":\"This model's maximum context length is 81920 tokens. However, you requested 214 output tokens and your prompt contains at least 81707 input tokens, for a total of at least 81921 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=81707)\",\"type\":\"BadRequestError\",\"param\":\"input_tokens\",\"code\":400}}"
+      },
+      "count": 1
+    },
+    {
+      "error_details": {
+        "code": 400,
+        "type": "Bad Request",
+        "message": "{\"error\":{\"message\":\"This model's maximum context length is 81920 tokens. However, you requested 333 output tokens and your prompt contains at least 81588 input tokens, for a total of at least 81921 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=81588)\",\"type\":\"BadRequestError\",\"param\":\"input_tokens\",\"code\":400}}"
+      },
+      "count": 1
+    },
+    {
+      "error_details": {
+        "code": 500,
+        "type": "Internal Server Error",
+        "message": "Request processing failed: Network error: Prefill request failed to http://127.0.0.1:9102/v1/chat/completions: error sending request for url (http://127.0.0.1:9102/v1/chat/completions) caused by: client error (SendRequest) caused by: connection error caused by: Connection reset by peer (os error 104)"
+      },
+      "count": 1
+    }
+  ],
+  "start_time": "2026-06-16T12:02:19.929893",
+  "end_time": "2026-06-16T12:19:54.415895",
+  "http_req_chunks_sent": {
+    "unit": "count",
+    "avg": 1.0,
+    "p1": 1.0,
+    "p5": 1.0,
+    "p10": 1.0,
+    "p25": 1.0,
+    "p50": 1.0,
+    "p75": 1.0,
+    "p90": 1.0,
+    "p95": 1.0,
+    "p99": 1.0,
+    "min": 1.0,
+    "max": 1.0,
+    "std": 0.0,
+    "count": 40948,
+    "sum": 40948.0
+  },
+  "http_req_sending": {
+    "unit": "ms",
+    "avg": 0.2014087504395819,
+    "p1": 0.138172,
+    "p5": 0.148892,
+    "p10": 0.1538927,
+    "p25": 0.16669299999999998,
+    "p50": 0.1899185,
+    "p75": 0.20754299999999998,
+    "p90": 0.2323567,
+    "p95": 0.2490405,
+    "p99": 0.3049328999999995,
+    "min": 0.088921,
+    "max": 89.14992199999999,
+    "std": 0.4583786812973912,
+    "count": 40948,
+    "sum": 8247.285512999999
+  },
+  "time_to_first_output_token": {
+    "unit": "ms",
+    "avg": 1103.336041709363,
+    "p1": 374.05030835,
+    "p5": 532.0062512,
+    "p10": 626.6410302,
+    "p25": 806.0841399999999,
+    "p50": 1046.5151815,
+    "p75": 1340.52276975,
+    "p90": 1652.3948090000006,
+    "p95": 1859.4111931,
+    "p99": 2314.023091129999,
+    "min": 159.656038,
+    "max": 6350.566448,
+    "std": 413.8625346045043,
+    "count": 40948,
+    "sum": 45179404.235915
+  },
+  "http_req_dns_lookup": {
+    "unit": "ms",
+    "avg": 0.0,
+    "p1": 0.0,
+    "p5": 0.0,
+    "p10": 0.0,
+    "p25": 0.0,
+    "p50": 0.0,
+    "p75": 0.0,
+    "p90": 0.0,
+    "p95": 0.0,
+    "p99": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "std": 0.0,
+    "count": 40948,
+    "sum": 0.0
+  },
+  "http_req_connecting": {
+    "unit": "ms",
+    "avg": 0.009647190827390836,
+    "p1": 0.0,
+    "p5": 0.0,
+    "p10": 0.0,
+    "p25": 0.0,
+    "p50": 0.0,
+    "p75": 0.0,
+    "p90": 0.0,
+    "p95": 0.0,
+    "p99": 0.0,
+    "min": 0.0,
+    "max": 88.63171299999999,
+    "std": 0.4516625217735552,
+    "count": 40948,
+    "sum": 395.03317
+  },
+  "http_req_blocked": {
+    "unit": "ms",
+    "avg": 0.0,
+    "p1": 0.0,
+    "p5": 0.0,
+    "p10": 0.0,
+    "p25": 0.0,
+    "p50": 0.0,
+    "p75": 0.0,
+    "p90": 0.0,
+    "p95": 0.0,
+    "p99": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "std": 0.0,
+    "count": 40948,
+    "sum": 0.0
+  },
+  "http_req_receiving": {
+    "unit": "ms",
+    "avg": 3648.4867404790466,
+    "p1": 176.51794425999998,
+    "p5": 284.54802644999995,
+    "p10": 342.4150102,
+    "p25": 475.57220824999996,
+    "p50": 1154.5833384999999,
+    "p75": 3655.74506475,
+    "p90": 9589.899493800003,
+    "p95": 16296.801465750004,
+    "p99": 34232.19899244,
+    "min": 6.474082,
+    "max": 50097.350264,
+    "std": 6409.391964140908,
+    "count": 40948,
+    "sum": 149398235.04913598
+  },
+  "http_req_connection_reused": {
+    "unit": "ratio",
+    "avg": 0.9944808049233174,
+    "p1": 1.0,
+    "p5": 1.0,
+    "p10": 1.0,
+    "p25": 1.0,
+    "p50": 1.0,
+    "p75": 1.0,
+    "p90": 1.0,
+    "p95": 1.0,
+    "p99": 1.0,
+    "min": 0.0,
+    "max": 1.0,
+    "std": 0.0740859876251113,
+    "count": 40948,
+    "sum": 40722.0
+  },
+  "http_req_chunks_received": {
+    "unit": "count",
+    "avg": 155.19497899775325,
+    "p1": 9.0,
+    "p5": 12.0,
+    "p10": 16.0,
+    "p25": 23.0,
+    "p50": 50.0,
+    "p75": 156.0,
+    "p90": 404.0,
+    "p95": 690.0,
+    "p99": 1436.1199999999953,
+    "min": 2.0,
+    "max": 2909.0,
+    "std": 270.89939624840866,
+    "count": 40948,
+    "sum": 6354924.0
+  },
+  "http_req_waiting": {
+    "unit": "ms",
+    "avg": 1102.643767957043,
+    "p1": 373.76594424999996,
+    "p5": 531.59321425,
+    "p10": 626.2791065,
+    "p25": 805.5412359999999,
+    "p50": 1045.993369,
+    "p75": 1339.870176,
+    "p90": 1651.1142225,
+    "p95": 1858.75770515,
+    "p99": 2313.027173709999,
+    "min": 159.20653199999998,
+    "max": 6350.278313,
+    "std": 413.72384877695606,
+    "count": 40948,
+    "sum": 45151057.010304995
+  },
+  "http_req_data_sent": {
+    "unit": "KB",
+    "avg": 140.19857118231508,
+    "p1": 80.802490234375,
+    "p5": 87.93818359375,
+    "p10": 94.33828125,
+    "p25": 110.957763671875,
+    "p50": 136.42578125,
+    "p75": 164.936767578125,
+    "p90": 190.4775390625,
+    "p95": 207.12050781250002,
+    "p99": 236.35759765625,
+    "min": 76.3251953125,
+    "max": 302.6044921875,
+    "std": 36.87848536514657,
+    "count": 40948,
+    "sum": 5740851.0927734375
+  },
+  "http_req_data_received": {
+    "unit": "KB",
+    "avg": 48.749934940351174,
+    "p1": 3.31640625,
+    "p5": 4.265625,
+    "p10": 5.1845703125,
+    "p25": 7.2939453125,
+    "p50": 15.79541015625,
+    "p75": 49.020263671875,
+    "p90": 126.84277343750006,
+    "p95": 215.848876953125,
+    "p99": 449.9667089843741,
+    "min": 1.123046875,
+    "max": 905.541015625,
+    "std": 84.78067673768106,
+    "count": 40948,
+    "sum": 1996212.3359375
+  },
+  "http_req_duration": {
+    "unit": "ms",
+    "avg": 4751.331917186529,
+    "p1": 777.43430652,
+    "p5": 1062.0543023,
+    "p10": 1227.2664942,
+    "p25": 1584.6039555,
+    "p50": 2367.7276349999997,
+    "p75": 4806.40415425,
+    "p90": 10737.15362190001,
+    "p95": 17416.546360850014,
+    "p99": 35318.65730084994,
+    "min": 346.927054,
+    "max": 51686.3327,
+    "std": 6427.734219100811,
+    "count": 40948,
+    "sum": 194557539.34495398
+  },
+  "osl_mismatch_diff_pct": {
+    "unit": "%",
+    "avg": 1.4480344383182633,
+    "p1": -1.5151515151515151,
+    "p5": -0.336420945264924,
+    "p10": -0.16025641025641024,
+    "p25": 0.24691358024691357,
+    "p50": 1.1111111111111112,
+    "p75": 3.3333333333333335,
+    "p90": 3.3333333333333335,
+    "p95": 3.3333333333333335,
+    "p99": 3.3333333333333335,
+    "min": -60.0,
+    "max": 10.0,
+    "std": 1.5381838136951684,
+    "count": 40948,
+    "sum": 59294.11418026814
+  },
+  "prefill_throughput_per_user": {
+    "unit": "tokens/sec/user",
+    "avg": 38870.734327019505,
+    "p1": 13136.630333865405,
+    "p5": 17207.313873408944,
+    "p10": 19990.114674525994,
+    "p25": 25920.03476518777,
+    "p50": 34870.67100340387,
+    "p75": 47395.85391329722,
+    "p90": 62756.39978290362,
+    "p95": 74101.55982285265,
+    "p99": 101723.81888701495,
+    "min": 4493.142498963424,
+    "max": 169583.95727282023,
+    "std": 18380.493630397395,
+    "count": 40948,
+    "sum": 1591678829.2227943
+  },
+  "e2e_output_token_throughput": {
+    "unit": "tokens/sec/user",
+    "avg": 37.536721280029326,
+    "p1": 12.823798280645299,
+    "p5": 15.973468273151237,
+    "p10": 18.235574605257792,
+    "p25": 23.78664385548739,
+    "p50": 36.12977725996316,
+    "p75": 50.145884054817564,
+    "p90": 57.00242600360161,
+    "p95": 59.414144749837696,
+    "p99": 82.9730770329823,
+    "min": 7.256016898482344,
+    "max": 168.47499664119906,
+    "std": 16.19602825117441,
+    "count": 40948,
+    "sum": 1537053.6629746337
+  },
+  "http_req_connection_overhead": {
+    "unit": "ms",
+    "avg": 0.009647190827390836,
+    "p1": 0.0,
+    "p5": 0.0,
+    "p10": 0.0,
+    "p25": 0.0,
+    "p50": 0.0,
+    "p75": 0.0,
+    "p90": 0.0,
+    "p95": 0.0,
+    "p99": 0.0,
+    "min": 0.0,
+    "max": 88.63171299999999,
+    "std": 0.4516625217735552,
+    "count": 40948,
+    "sum": 395.03317
+  },
+  "http_req_total": {
+    "unit": "ms",
+    "avg": 4751.341564377356,
+    "p1": 777.43430652,
+    "p5": 1062.0543023,
+    "p10": 1227.2664942,
+    "p25": 1584.6039555,
+    "p50": 2367.7276349999997,
+    "p75": 4806.40415425,
+    "p90": 10737.15362190001,
+    "p95": 17416.546360850014,
+    "p99": 35318.65730084994,
+    "min": 348.361267,
+    "max": 51686.3327,
+    "std": 6427.73218543917,
+    "count": 40948,
+    "sum": 194557934.378124
+  },
+  "osl_mismatch_count": {
+    "unit": "requests",
+    "avg": 74.0
+  },
+  "total_token_throughput": {
+    "unit": "tokens/sec",
+    "avg": 1462499.4320894128
+  }
+}

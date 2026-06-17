@@ -1,0 +1,44 @@
+{
+  "_comment": "Agentic-code-loop, tuned for ~60s wall-clock per session at 200 tok/s TPOT / 200ms TTFT. Pure agentic (no human pauses). Explicit 20-turn sessions: 20 TTFTs (4s) + 19 tool-call gaps at 1.5s (28.5s) + 20*250/200 decode (25s) = ~58s.",
+
+  "max_prompt_tokens": 200000,
+  "block_size": 64,
+
+  "cache": {
+    "layer1_tokens": 12000,
+    "layer1_5_tokens": 8000,
+    "layer1_5_groups": {"num_groups": 20, "zipf_alpha": 1.0},
+    "layer2": {"mean": 6000, "median": 4000, "max": 20000}
+  },
+
+  "new_tokens_per_turn": {
+    "mean": 1500,
+    "median": 400,
+    "max": 10000,
+    "bias": 1.1
+  },
+
+  "generation_length": {
+    "mean": 320,
+    "median": 80,
+    "max": 3000
+  },
+
+  "inter_turn_delay": {
+    "agentic_fraction": 1.0,
+    "agentic_delay": {"mean": 1500, "median": 1500, "min": 1000, "max": 2000},
+    "human_delay":   {"mean": 1500, "median": 1500, "max": 2000},
+    "max": 2000
+  },
+
+  "turns": {
+    "mean": 20,
+    "median": 20,
+    "min": 15,
+    "max": 30,
+    "allow_truncation": true
+  },
+
+  "reset": null,
+  "restart_initial_probability": 0.0
+}

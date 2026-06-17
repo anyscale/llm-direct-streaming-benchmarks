@@ -1,0 +1,15 @@
+{
+  "path": "datasets/agentic_loop_2200s_seed42/dataset.jsonl",
+  "rows": 44000,
+  "sessions": 2200,
+  "sha256": "81147c2fcb71288abd4a329c6a074e4839a209404a483161d8da521752a9e045",
+  "min_turns_per_session": 20,
+  "max_turns_per_session": 20,
+  "generator": "aiperf synthesize agentic-code",
+  "aiperf_version": "0.8.0",
+  "num_sessions_requested": 2200,
+  "seed": 42,
+  "config": "configs/agentic_loop.json",
+  "model": "microsoft/Phi-tiny-MoE-instruct for P/D; Qwen/Qwen3-0.6B-FP8 for 8x",
+  "tokenizer": "same as model unless overridden"
+}
